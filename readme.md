@@ -44,6 +44,14 @@ the highlight group `CursorAutoHighlight`, like so:
 :highlight CursorAutoHighlight guibg=red
 ```
 
+#### Autoclear
+By default, the highlight is not cleared when the cursor is moved.
+To enable this, you will need to set the option to 1
+
+```vim
+let g:AutoHighlightAutoClear = 1
+```
+
 License
 -------
 
