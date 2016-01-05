@@ -45,11 +45,16 @@ the highlight group `CursorAutoHighlight`, like so:
 ```
 
 #### Autoclear
-By default, the highlight is not cleared when the cursor is moved.
-To enable this, you will need to set the option to 1
+Autoclearing can be turned on for 2 events.
 
-```vim
-let g:AutoHighlightAutoClear = 1
+To turn on autoclear when cursor is moved, enable the following option.
+```
+g:AutoHighlight_ClearOnCursorMoved = 1
+```
+
+To turn on autoclear when exiting a window, enable the following option.
+```
+g:AutoHighlight_ClearOnWindowExit = 1
 ```
 
 License
