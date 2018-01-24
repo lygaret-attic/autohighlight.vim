@@ -1,4 +1,4 @@
-highlight CursorAutoHighlight term=underline cterm=underline gui=underline
+highlight default CursorAutoHighlight term=underline cterm=underline gui=underline
 
 let s:current = 0
 
