@@ -1,3 +1,11 @@
+Abandoned Repository
+--------------------
+I no longer use this plugin (nor Vim, often), and am no longer maintaining 
+this repository. If you're interested in my adding a link to a fork here in 
+the readme, let me know.
+
+---
+
 Vim AutoHighlight
 =================
 
@@ -5,12 +13,6 @@ This plugin will automatically highlight the word currently under the cursor
 in the current window. This allows you to more easily see where words are
 being used, (eg. variable usages, etc.)
 
-Plea For Suggestions
---------------------
-
-**NOTE** This plugin is my first attempt at an actual packaged up vim plugin,
-and hence I'm absolutely sure there's a billion and four things missing. Please,
-please file issues to tell me what I've messed up. Pull requests are even better!
 
 Installation
 ------------
