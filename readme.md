@@ -44,6 +44,39 @@ the highlight group `CursorAutoHighlight`, like so:
 :highlight CursorAutoHighlight guibg=red
 ```
 
+#### Autoclear
+Autoclearing can be turned on for 2 events.
+
+To turn on autoclear when cursor is moved, enable the following option.
+```
+g:AutoHighlight_ClearOnCursorMoved = 1
+```
+
+To turn on autoclear when exiting a window, enable the following option.
+```
+g:AutoHighlight_ClearOnWindowExit = 1
+```
+
+#### Disabling AutoHighlight for certain buffers
+In some buffers, AutoHighlight may not work, especially if the buffers are created by another plugin.
+To disable auto highlight for some buffers, first find out the name of the buffer created by the other plugin.
+
+To find out the name of the buffer, enter the buffer/window that the other plugin created, and type
+
+```
+echo @%
+```
+This will print out the name of the buffer, for example "ControlP" if run the command inside the ControlP buffer.
+
+This will echo out the name of the buffer.
+Add the name of the buffer, into the following global option.
+
+```
+let g:AutoHighlight_DisabledBuffers = "ControlP"
+```
+
+Multiple values can be added, by separating them with a comma.
+
 License
 -------
 
