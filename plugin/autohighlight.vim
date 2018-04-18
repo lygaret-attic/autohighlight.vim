@@ -1,4 +1,4 @@
-highlight CursorAutoHighlight term=underline cterm=underline gui=underline
+highlight default CursorAutoHighlight term=underline cterm=underline gui=underline
 
 if !exists('g:AutoHighlight_ClearOnCursorMoved')
     let g:AutoHighlight_ClearOnCursorMoved = 0
